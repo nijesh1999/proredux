@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.left {
+  color: #fefcff;
+  height: 90vh;
+  object-fit: cover;
+  background-image: url("https://assets.weforum.org/editor/yoUek8H0DdLkJtX0tTeV7X45hEBUdZ_iT3IDERoUu3w.gif");
+  background-color: #cccccc;
+}
+
+.left-body {
+  position: absolute;
+  top: 15%;
+}
+
+.link {
+  color: #0c0c0c;
+  text-decoration: none;
+}
+
+.side {
+  display: inline;
+  /* flex-direction: column; */
+}
+
+.sugg-body {
+  height: 69vh;
+  overflow: scroll;
+}
+.country:hover,
+Link:hover {
+  background-color: #262a2b;
+  color: whitesmoke !important;
+  border-radius: 3.5px;
+}
+
+select {
+  line-height: 0px !important;
+  border: 0px;
+  background-color: #ffffff;
+  border-color: #fff transparent transparent transparent;
+}
+/* .barchart {
+  margin-left: 600px;
+  overflow-x: scroll;
+} */
+
+.country-bg {
+  background-color: #ffffff;
+}
+
+.head:hover {
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #000000;
+  box-shadow: 0 0 5px #000000, 0 0 10px #696969, 0 0 15px #c0c0c0;
+  transition-delay: 2ms;
+}
+
+.origi {
+  margin-top: 10%;
 }
